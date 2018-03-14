@@ -12,5 +12,7 @@ class Genre
   end
   
   def artists
+    self.songs
+  end
   
 end
