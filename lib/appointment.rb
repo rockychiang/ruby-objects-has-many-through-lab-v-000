@@ -1,4 +1,4 @@
-class appointment
+class Appointment
   attr_accessor :appointments
   attr_reader :name
   
