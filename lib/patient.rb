@@ -12,4 +12,7 @@ class Patient
     app.patient = self
   end
   
+  def doctors
+    self.appointments.map{|app| app.doctor}
+  
 end
