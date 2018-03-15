@@ -10,5 +10,6 @@ class Patient
   def add_appointment(app)
     @appointments << app
     app.patient = self
+  end
   
 end
