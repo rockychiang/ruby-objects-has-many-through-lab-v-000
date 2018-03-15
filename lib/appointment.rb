@@ -1,6 +1,6 @@
 class Appointment
   attr_accessor :appointments
-  attr_reader :name
+  attr_reader :date
   
   def initialize(date)
     @date = date
